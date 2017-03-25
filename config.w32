@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("php_tc", "for php_tc support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("php_tc", "enable php_tc support", "no");
+
+if (PHP_PHP_TC != "no") {
+	EXTENSION("php_tc", "php_tc.c");
+}
+
