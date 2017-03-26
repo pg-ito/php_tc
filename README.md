@@ -2,10 +2,9 @@
 php extension for [Tokyo Cabinet](http://fallabs.com/tokyocabinet/index.ja.html, "データベースマネージャ Tokyo Cabinet")
 
 
-# prepare
+# prepare  
 
-## install dependency libraries
-
+install dependency libraries  
 `yum install -y php-devel zlib-devel bzip2-devel tokyocabinet-devel`
 
 
@@ -38,7 +37,7 @@ make
 `make install`
 
 ### modify php.ini or related *.ini file  
-e.g. 
+e.g.  
 `exntension=php_tc.so`
 
 ### restart apache or another webserver
