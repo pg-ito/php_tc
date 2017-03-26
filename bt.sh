@@ -1,5 +1,5 @@
 #!/bin/bash -x
-
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 # rm -f Makefile.*
 ${HOME}/php-ext/bin/phpize 
 ./configure --enable-php_tc --enable-debug --with-php-config=${HOME}/php-ext/bin/php-config 
